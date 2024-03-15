@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The videos</title>
+    <link rel="icon" href="/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="nav-container">
+        <div class="logo-header">
+            <a href="">
+              <h1>the
+                <span>video <i class="fa-solid fa-play"></i></span>
+              </h1>
+            </a>
+        </div>
+        <ul class=" items-pesquisa ">
+            <li>
+                <div class="search-box">
+                    <form action="">
+                        <input type="text" placeholder="Pesquise..." name="search" id="srch" onclick="AbrirPesq()">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                     </form>
+                   </div>
+            </li>
+        </ul>
+        <ul class="link-header">
+            <li>
+                <a  id="btn-criar">criar conta/entrar</a>
+            </li>
+            <li>
+                <button id="pesquise" onclick="barraPesq()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <ul class=" items-pesquisa-mobile">
+        <button id="fechar-pesq">fechar X</button>
+        <br>
+        <li>
+            <div class="search-box-mobile">
+                <form action="">
+                    <input type="text" placeholder="Pesquise..." name="search" id="srch" onclick="AbrirPesq()">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                 </form>
+               </div>
+        </li>
+    </ul>
+
+    <section class="categoria-container">
+        <button class="categoria oneA">videos</button>
+        <button class="categoria ">videos curtos</button>
+        <button class="categoria">musica</button>
+        <button class="categoria">playlist</button>
+        <button class="categoria">inscrições</button>
+        <button class="categoria">assistir mais tarde</button>
+        <button class="categoria">seus videos</button>
+        <button class="categoria">ao vivo</button>
+        <button class="categoria">em alta</button>
+        <button class="categoria">jogos</button>
+        <button class="categoria">esporte</button>
+        <button class="categoria">criar conta</button>
+    </section>
+    
+
+
+    <section class="container" id="template-areas">
+        <div id="videos">
+            <div class="container-videos">
+            <a href="video.html">
+            <div class="video-img">
+                <img src="https://t4.ftcdn.net/jpg/05/18/69/85/360_F_518698520_Xk9tIwoYpyX6kkVsF6GpQ1z7sKXO8YRz.jpg" alt="">
+                <span class="minuto-video">12 min</span>
+            </div>
+            </a>
+            <div class="video-details">
+                <a href="">
+                <h1>Animações 3d</h1>
+                </a>
+                <div class="video-details-canal">
+                    <a href="">
+                    <img src="https://www.veeforu.com/wp-content/uploads/2023/03/Orange-Youtube-thumbnail-background-download.jpg" alt="">
+                    <span>Animation br</span>
+                    </a>
+                </div>
+                <p>30 mil vizualizações ° há 10 dias</p>
+                <button class="video-genero">animação</button>
+            </div>
+            </div><!--CONTAINER VIDEOS-->
+
+            <div class="container-videos">
+                <a href="video.html">
+                <div class="video-img">
+                    <img src="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3116191:1627598799/image/C-_Users_diogo_Downloads_Projetos_SVM_Jogos_Times_Sao-Paulo.png_rodada-14.jpg?f=default&$p$f=aaad448" alt="">
+                    <span class="minuto-video">9:30 min</span>
+                    
+                </div>
+                </a>
+                <div class="video-details">
+                    <a href="">
+                    <h1>São Paulo x Palmeiras</h1>
+                    </a>
+                    <div class="video-details-canal">
+                        <a href="">
+                        <img src="https://img.freepik.com/vetores-gratis/bola-de-futebol-doodle_1034-741.jpg" alt="">
+                        <span>Jogo a Jogo</span>
+                        </a>
+                    </div>
+                    <p>10 mil vizualizações ° há 9 horas</p>
+                    <button class="video-genero">esporte</button>
+                </div>
+                </div><!--CONTAINER VIDEOS-->
+
+                <div class="container-videos">
+                    <a href="video.html">
+                    <div class="video-img">
+                        <img src="https://t.ctcdn.com.br/BKiFNvyVhajUjXDoq67jZbLuYpk=/1200x675/smart/i640757.jpeg" alt="">
+                        <span class="minuto-video">5:49 min</span>
+                    </div>
+                    </a>
+                    <div class="video-details">
+                        <a href="">
+                        <h1>Free fire clipe</h1>
+                        </a>
+                        <div class="video-details-canal">
+                            <a href="">
+                            <img src="https://t.ctcdn.com.br/BKiFNvyVhajUjXDoq67jZbLuYpk=/1200x675/smart/i640757.jpeg" alt="">
+                            <span>Free fire </span>
+                            <p>V</p>
+                            </a>
+                        </div>
+                        <p>120 mil vizualizações ° há 2 dias</p>
+                        <button class="video-genero">game</button>
+                    </div>
+                    </div><!--CONTAINER VIDEOS-->
+
+                    <div class="container-videos">
+                        <a href="">
+                        <div class="video-img">
+                            <img src="https://www.escolascriativas.com/wp-content/uploads/2020/02/playlist-musica-do-meu-lugar.png" alt="">
+                            
+                        </div>
+                        </a>
+                        <div class="video-details">
+                            <a href="">
+                            <h1>Monte sua playlist de musica</h1>
+                            </a>
+                            <div class="video-details-canal">
+                                <a href="">
+                                <img src="/codigo videos/logo.png" alt="">
+                                <span>The videos</span>
+                                <p>V</p>
+                                </a>
+                            </div>
+                            <p>.</p>
+                            <button class="video-genero">Experimente agora</button>
+                        </div>
+                        </div><!--CONTAINER VIDEOS-->
+
+                        <div class="container-videos">
+                            <a href="video.html">
+                            <div class="video-img">
+                                <img src="https://t4.ftcdn.net/jpg/05/18/69/85/360_F_518698520_Xk9tIwoYpyX6kkVsF6GpQ1z7sKXO8YRz.jpg" alt="">
+                                <span class="minuto-video">12 min</span>
+                            </div>
+                            </a>
+                            <div class="video-details">
+                                <a href="">
+                                <h1>Animações 3d</h1>
+                                </a>
+                                <div class="video-details-canal">
+                                    <a href="">
+                                    <img src="https://www.veeforu.com/wp-content/uploads/2023/03/Orange-Youtube-thumbnail-background-download.jpg" alt="">
+                                    <span>Animation br</span>
+                                    </a>
+                                </div>
+                                <p>30 mil vizualizações ° há 10 dias</p>
+                                <button class="video-genero">animação</button>
+                            </div>
+                            </div><!--CONTAINER VIDEOS-->
+                
+                            <div class="container-videos">
+                                <a href="video.html">
+                                <div class="video-img">
+                                    <img src="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3116191:1627598799/image/C-_Users_diogo_Downloads_Projetos_SVM_Jogos_Times_Sao-Paulo.png_rodada-14.jpg?f=default&$p$f=aaad448" alt="">
+                                    <span class="minuto-video">9:30 min</span>
+                                </div>
+                                </a>
+                                <div class="video-details">
+                                    <a href="">
+                                    <h1>São Paulo x Palmeiras</h1>
+                                    </a>
+                                    <div class="video-details-canal">
+                                        <a href="">
+                                        <img src="https://img.freepik.com/vetores-gratis/bola-de-futebol-doodle_1034-741.jpg" alt="">
+                                        <span>Jogo a Jogo</span>
+                                        </a>
+                                    </div>
+                                    <p>10 mil vizualizaões ° há 9 horas</p>
+                                    <button class="video-genero">esporte</button>
+                                </div>
+                                </div><!--CONTAINER VIDEOS-->
+                
+                                <div class="container-videos">
+                                    <a href="video.html">
+                                    <div class="video-img">
+                                        <img src="https://t.ctcdn.com.br/BKiFNvyVhajUjXDoq67jZbLuYpk=/1200x675/smart/i640757.jpeg" alt="">
+                                        <span class="minuto-video">5:49 min</span>
+                                    </div>
+                                    </a>
+                                    <div class="video-details">
+                                        <a href="">
+                                        <h1>Free fire clipe</h1>
+                                        </a>
+                                        <div class="video-details-canal">
+                                            <a href="">
+                                            <img src="https://t.ctcdn.com.br/BKiFNvyVhajUjXDoq67jZbLuYpk=/1200x675/smart/i640757.jpeg" alt="">
+                                            <span>Free fire </span>
+                                            <p>V</p>
+                                            </a>
+                                        </div>
+                                        <p>120 mil vizualizações ° há 2 dias</p>
+                                        <button class="video-genero">game</button>
+                                    </div>
+                                    </div><!--CONTAINER VIDEOS-->
+                
+                                    <div class="container-videos">
+                                        <a href="">
+                                        <div class="video-img">
+                                            <img src="https://ps.w.org/html5-video-player/assets/icon-128x128.png?rev=2284032" alt="">
+                                        </div>
+                                        </a>
+                                        <div class="video-details">
+                                            <a href="">
+                                            <h1>Monte sua playlist de videos</h1>
+                                            </a>
+                                            <div class="video-details-canal">
+                                                <a href="">
+                                                <img src="/codigo videos/logo.png" alt="">
+                                                <span>The videos</span>
+                                                <p>V</p>
+                                           </a>
+                                            </div>
+                                            <p>.</p>
+                                            <button class="video-genero">monte agora</button>     
+                                        </div>
+                                        </div><!--CONTAINER VIDEOS-->
+                  </div><!--VIDEOS-->
+                  </section>
+
+
+                  <section class="videos-curtos" id="template-areas">
+                    <div id="curto">
+                        <div class="curto-container">
+                            <div class="curto-img">
+                                <img src="https://compote.slate.com/images/697b023b-64a5-49a0-8059-27b963453fb1.gif" alt="">
+                            </div>
+                            <div class="curto-details">
+                                <a href="">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png" alt="">
+                                </a>
+                                <button>
+                                    <i class="fa-solid fa-comment"></i>
+                                    <br>
+                                    <span>comentarios</span>
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-share-from-square"></i>
+                                    <br>
+                                    <span>compartilhar</span>
+                                </button>
+                                <button>
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <br>
+                                    <span>salvar</span>
+                                </button>
+                            </div><!--DETAILS-->
+
+                            <div class="curto-descri">
+                                <h1>Simpsons videos</h1>
+                                <button>#thevideo</button>
+                                <button>#the videos</button>
+                                <button>#Simpsons</button>
+                                <button>#Simpsons</button>
+                                <div class="curto-perfil">
+                                    <button>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png" alt="">                                    
+                                    <span>seguir</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="curto-container">
+                            <div class="curto-img">
+                                <img src="https://cdn.vox-cdn.com/thumbor/2UIM8hYYu5ifmeC4ilXYwP9koTg=/0x0:800x333/1200x800/filters:focal(336x103:464x231):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/55278743/gatsby.1497548146.gif" alt="">
+                            </div>
+                            <div class="curto-details">
+                                <a href="">
+                                <img src="logo.png" alt="">
+                                </a>
+                                <button>
+                                    <i class="fa-solid fa-comment"></i>
+                                    <br>
+                                    <span>comentarios</span>
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-share-from-square"></i>
+                                    <br>
+                                    <span>compartilhar</span>
+                                </button>
+                                <button>
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <br>
+                                    <span>salvar</span>
+                                </button>
+                            </div><!--DETAILS-->
+
+                            <div class="curto-descri">
+                                <h1>Filme muito bom</h1>
+                                <button>#thevideo</button>
+                                <button>#filme</button>
+                                <div class="curto-perfil">
+                                    <button>
+                                    <img src="logo.png" alt="">                                    
+                                    <span>seguir</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="curto-container">
+                            <div class="curto-img">
+                                <img src="https://images.axios.com/7cPD49NZfldSAoFUubpo9Ekaec0=/0x0:1280x720/1920x1080/filters:no_upscale()/2024/02/19/1708386392988.gif" alt="">
+                            </div>
+                            <div class="curto-details">
+                                <a href="">
+                                <img src="logo.png" alt="">
+                                </a>
+                                <button>
+                                    <i class="fa-solid fa-comment"></i>
+                                    <br>
+                                    <span>comentarios</span>
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-share-from-square"></i>
+                                    <br>
+                                    <span>compartilhar</span>
+                                </button>
+                                <button>
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <br>
+                                    <span>salvar</span>
+                                </button>
+                            </div><!--DETAILS-->
+
+                            <div class="curto-descri">
+                                <h1>Video em 4k em NY</h1>
+                                <button>#thevideo</button>
+                                <button>#the videos</button>
+                                <button>#novaYork</button>
+                                <button>#eua</button>
+                                <div class="curto-perfil">
+                                    <button>
+                                    <img src="logo.png" alt="">                                    
+                                    <span>seguir</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="curto-container">
+                            <div class="curto-img">
+                                <img src="https://cdn.blog.fonepaw.com/images/animated-gif-wallpaper.gif" alt="">
+                            </div>
+                            <div class="curto-details">
+                                <a href="">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png" alt="">
+                                </a>
+                                <button>
+                                    <i class="fa-solid fa-comment"></i>
+                                    <br>
+                                    <span>comentarios</span>
+                                </button>
+                                <button>
+                                    <i class="fa-solid fa-share-from-square"></i>
+                                    <br>
+                                    <span>compartilhar</span>
+                                </button>
+                                <button>
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <br>
+                                    <span>salvar</span>
+                                </button>
+                            </div><!--DETAILS-->
+
+                            <div class="curto-descri">
+                                <h1>Gato de botas 2</h1>
+                                <button>#thevideo</button>
+                                <button>#the videos</button>
+                                <button>#gato</button>
+                                <div class="curto-perfil">
+                                    <button>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png" alt="">                                    
+                                    <span>seguir</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div><!--curto-->
+                  </section>
+
+
+                  <div class="apresenta-container" id="template-areas">
+                    <div id="titulo-apt">
+                            <h1>Faça dowloads gratis</h1>
+                            <div class="apt-btns">
+                            <button>util</button>
+                            <button>inutil</button>
+                            </div>
+                    </div><!--ID-->
+                    <div id="imagem-apt">
+                        <img src="https://iconape.com/wp-content/png_logo_vector/upload-5.png" alt="">
+                    </div><!--ID IMG-->
+                  </div>
+
+                  <section class="container" id="template-areas">
+                    <div id="videos">
+                        <div class="container-videos">
+                        <a href="video.html">
+                        <div class="video-img">
+                            <img src="https://gallant.vc/wp-content/uploads/2021/08/Gamer-abre.jpg" alt="">
+                            <span class="minuto-video">15:10 min</span>
+                        </div>
+                        </a>
+                        <div class="video-details">
+                            <a href="">
+                            <h1>Ganhei uma arma rara no CSGO!! </h1>
+                            </a>
+                            <div class="video-details-canal">
+                                <a href="">
+                                <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/gamer-logos-design-template-ef850a1f6ef35e2d9101586306422e8b_screen.jpg?ts=1619010269" alt="">
+                                <span>Bruno gameplay</span>
+                                </a>
+                            </div>
+                            <p>30 mil vizualizações ° há 10 dias</p>
+                            <button class="video-genero">game</button>
+                        </div>
+                        </div><!--CONTAINER VIDEOS-->
+                            
+                                       <div class="container-videos">
+                                          <a href="video.html">
+                                            <div class="video-img">
+                                                <img src="https://uploads.metropoles.com/wp-content/uploads/2024/01/12153936/bellingham-xavi-supercopa-da-espanha.jpg" alt="">
+                                                <span class="minuto-video">8:30 min</span>
+                                            </div>
+                                            </a>
+                                            <div class="video-details">
+                                                <a href="">
+                                                <h1>Real madrid x Barcelona</h1>
+                                                </a>
+                                                <div class="video-details-canal">
+                                                    <a href="">
+                                                    <img src="https://i.pinimg.com/236x/89/9e/05/899e0533e010494ae44388f548657080.jpg" alt="">
+                                                    <span>Esporte aqui</span>
+                                                    </a>
+                                                </div>
+                                                <p>90 mil vizualizações ° há 19 horas</p>
+                                                <button class="video-genero">esporte</button>
+                                            </div>
+                                            </div><!--CONTAINER VIDEOS-->
+                            
+                                            <div class="container-videos">
+                                                <a href="video.html">
+                                                <div class="video-img">
+                                                    <img src="https://i0.wp.com/xxboxnews.blob.core.windows.net/prod/sites/8/2021/11/ForzaHorizon5_Launch_Review-01_16x9_WM_Hero.jpg?fit=1920%2C1080&ssl=1" alt="">
+                                                    <span class="minuto-video">8:42 min</span>
+                                                </div>
+                                                </a>
+                                                <div class="video-details">
+                                                    <a href="">
+                                                    <h1>Gameplay forza 5</h1>
+                                                    </a>
+                                                    <div class="video-details-canal">
+                                                        <a href="">
+                                                        <img src="https://img.freepik.com/fotos-gratis/um-homem-em-um-terno-de-neon-esta-sentado-em-uma-cadeira-com-um-letreiro-de-neon-que-diz-a-palavra_188544-27011.jpg" alt="">
+                                                        <span>gamer na aréa </span>
+                                                        </a>
+                                                    </div>
+                                                    <p>60 mil vizualizações ° há 12 dias</p>
+                                                    <button class="video-genero">game</button>
+                                                </div>
+                                                </div><!--CONTAINER VIDEOS-->
+                            
+                                                <div class="container-videos">
+                                                    <a href="video.html">
+                                                    <div class="video-img">
+                                                        <img src="https://istoedinheiro.com.br/wp-content/uploads/sites/17/2022/09/emp.jpg" alt="">
+                                                        <span class="minuto-video">29:50 min</span>
+                                                    </div>
+                                                    </a>
+                                                    <div class="video-details">
+                                                        <a href="">
+                                                        <h1>Ganhe dinheiro na internet!! </h1>
+                                                        </a>
+                                                        <div class="video-details-canal">
+                                                            <a href="">
+                                                            <img src="data:image/png;base64,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" alt="">
+                                                            <span>Mundo online </span>
+                                                            </a>
+                                                        </div>
+                                                        <p>520 mil vizualizações ° há 1 ano</p>
+                                                        <button class="video-genero">entreterimento</button>
+                                                    </div>
+                                                    </div><!--CONTAINER VIDEOS-->
+                              </div><!--VIDEOS-->
+                              </section>
+
+                              <div class="container-aovivo" id="template-areas">
+                                <div id="ao-vivo">
+                                    <div class="aovivo-img">
+                                        <img src="https://img.olhardigital.com.br/wp-content/uploads/2022/03/shutterstock_624801452-1.jpg" alt="">
+                                    </div>
+                                    <div class="aovivo-details">
+                                        <h1>Assista lives ao vivo com seu stramer favorito</h1>
+                                        <br>
+                                        <a href="">ver agora!</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+
+                            <section class="container" id="template-areas">
+                                <div id="videos">
+                                    <div class="container-videos">
+                                    <a href="video.html">
+                                    <div class="video-img video-img-vivo">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5TKnQDxXDCm2e-MsFsS9Q2XWbz2TD6Gpobg&usqp=CAU" alt="">
+                                        <span class="minuto-video minuto-video-vivo"><i class="fa-solid fa-tower-broadcast"></i> ao vivo</span>
+                                    </div>
+                                    </a>
+                                    <div class="video-details">
+                                        <a href="">
+                                        <h1>Noticias do mundo aovivo</h1>
+                                        </a>
+                                        <div class="video-details-canal">
+                                            <a href="">
+                                            <img src="https://ogimg.infoglobo.com.br/in/24906981-7c8-ab3/FT1500A/690/header_novo2.jpg" alt="">
+                                            <span>Jornal atento</span>
+                                            </a>
+                                        </div>
+                                        <p>10 mil assistindo ° há 2 horas</p>
+                                        <button class="video-genero">ao vivo</button>
+                                        <button class="video-genero">entreterimento</button>
+                                    </div>
+                                    </div><!--CONTAINER VIDEOS-->
+
+                                    <div class="container-videos">
+                                        <a href="video.html">
+                                        <div class="video-img">
+                                            <img src="https://assetsio.reedpopcdn.com/league-of-legends-requisitos-minimos-lol-1626456007951.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp" alt="">
+                                            <span class="minuto-video minuto-video-vivo"><i class="fa-solid fa-tower-broadcast"></i> ao vivo</span>
+                                        </div>
+                                        </a>
+                                        <div class="video-details">
+                                            <a href="">
+                                            <h1>Lolzinho acompanhe já</h1>
+                                            </a>
+                                            <div class="video-details-canal">
+                                                <a href="">
+                                                <img  alt="">
+                                                <span>Jogador de lol</span>
+                                                </a>
+                                            </div>
+                                            <p>970 assistindo ° há 43 minutos</p>
+                                            <button class="video-genero">ao vivo</button>
+                                            <button class="video-genero">game</button>
+                                        </div>
+                                        </div><!--CONTAINER VIDEOS-->
+
+                                        
+                                    <div class="container-videos">
+                                        <a href="video.html">
+                                        <div class="video-img">
+                                            <img src="https://s2-oglobo.glbimg.com/NM-LbgcP2XdLxx0NYB1ZBMqyF2k=/0x0:1000x745/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/u/t/N9FFtxQrSd5xgXvSmWQA/corinthians-santos.jpg" alt="">
+                                            <span class="minuto-video minuto-video-vivo"><i class="fa-solid fa-tower-broadcast"></i> ao vivo</span>
+                                        </div>
+                                        </a>
+                                        <div class="video-details">
+                                            <a href="">
+                                            <h1>Corinthians x Santos</h1>
+                                            </a>
+                                            <div class="video-details-canal">
+                                                <a href="">
+                                                <img src="data:image/jpeg;base64,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" alt="">
+                                                <span>Futebol ao vivo</span>
+                                                </a>
+                                            </div>
+                                            <p>110 mil assistindo ° há 59 minutos </p>
+                                            <button class="video-genero">ao vivo</button>
+                                            <button class="video-genero">esporte</button>
+                                        </div>
+                                        </div><!--CONTAINER VIDEOS-->
+
+                                        <div class="container-videos">
+                                            <a href="video.html">
+                                            <div class="video-img">
+                                                <img src="https://i.ytimg.com/vi/cKbQQuMJsuU/maxresdefault.jpg" alt="">
+                                                <span class="minuto-video minuto-video-vivo"><i class="fa-solid fa-tower-broadcast"></i> ao vivo</span>
+                                            </div>
+                                            </a>
+                                            <div class="video-details">
+                                                <a href="">
+                                                <h1>Free fire ao vivo (nova Skinn!!)</h1>
+                                                </a>
+                                                <div class="video-details-canal">
+                                                    <a href="">
+                                                    <img src="https://p16-capcut-sign-va.ibyteimg.com/tos-maliva-v-be9c48-us/4e1c9e23f75c458c8d3b01a875f8ca65~tplv-nhvfeczskr-1:250:0.webp?lk3s=44acef4b&x-expires=1736256234&x-signature=l6OlhLLtxE%2BIeSgiN%2BAShDAV1tw%3D">
+                                                    <span>João FF</span>
+                                                    </a>
+                                                </div>
+                                                <p>1,2 mil assistindo ° há 1 hora e 30 minutos </p>
+                                                <button class="video-genero">ao vivo</button>
+                                                <button class="video-genero">game</button>
+                                            </div>
+                                            </div><!--CONTAINER VIDEOS-->
+
+                                            <div class="container-videos">
+                                                <a href="video.html">
+                                                <div class="video-img">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5TKnQDxXDCm2e-MsFsS9Q2XWbz2TD6Gpobg&usqp=CAU" alt="">
+                                                    <span class="minuto-video minuto-video-vivo"><i class="fa-solid fa-tower-broadcast"></i> ao vivo</span>
+                                                </div>
+                                                </a>
+                                                <div class="video-details">
+                                                    <a href="">
+                                                    <h1>Noticias do mundo aovivo</h1>
+                                                    </a>
+                                                    <div class="video-details-canal">
+                                                        <a href="">
+                                                        <img src="https://ogimg.infoglobo.com.br/in/24906981-7c8-ab3/FT1500A/690/header_novo2.jpg" alt="">
+                                                        <span>Jornal atento</span>
+                                                        </a>
+                                                    </div>
+                                                    <p>10 mil assistindo ° há 2 horas</p>
+                                                    <button class="video-genero">ao vivo</button>
+                                                    <button class="video-genero">entreterimento</button>
+                                                </div>
+                                                </div><!--CONTAINER VIDEOS-->
+            
+                                                <div class="container-videos">
+                                                    <a href="video.html">
+                                                    <div class="video-img">
+                                                        <img src="https://assetsio.reedpopcdn.com/league-of-legends-requisitos-minimos-lol-1626456007951.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp" alt="">
+                                                        <span class="minuto-video minuto-video-vivo"><i class="fa-solid fa-tower-broadcast"></i> ao vivo</span>
+                                                    </div>
+                                                    </a>
+                                                    <div class="video-details">
+                                                        <a href="">
+                                                        <h1>Lolzinho acompanhe já</h1>
+                                                        </a>
+                                                        <div class="video-details-canal">
+                                                            <a href="">
+                                                            <img  alt="">
+                                                            <span>Jogador de lol</span>
+                                                            </a>
+                                                        </div>
+                                                        <p>970 assistindo ° há 43 minutos</p>
+                                                        <button class="video-genero">ao vivo</button>
+                                                        <button class="video-genero">game</button>
+                                                    </div>
+                                                    </div><!--CONTAINER VIDEOS-->
+            
+                                                    
+                                                <div class="container-videos">
+                                                    <a href="video.html">
+                                                    <div class="video-img">
+                                                        <img src="https://s2-oglobo.glbimg.com/NM-LbgcP2XdLxx0NYB1ZBMqyF2k=/0x0:1000x745/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/u/t/N9FFtxQrSd5xgXvSmWQA/corinthians-santos.jpg" alt="">
+                                                        <span class="minuto-video minuto-video-vivo"><i class="fa-solid fa-tower-broadcast"></i> ao vivo</span>
+                                                    </div>
+                                                    </a>
+                                                    <div class="video-details">
+                                                        <a href="">
+                                                        <h1>Corinthians x Santos</h1>
+                                                        </a>
+                                                        <div class="video-details-canal">
+                                                            <a href="">
+                                                            <img src="data:image/jpeg;base64,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" alt="">
+                                                            <span>Futebol ao vivo</span>
+                                                            </a>
+                                                        </div>
+                                                        <p>110 mil assistindo ° há 59 minutos </p>
+                                                        <button class="video-genero">ao vivo</button>
+                                                        <button class="video-genero">esporte</button>
+                                                    </div>
+                                                    </div><!--CONTAINER VIDEOS-->
+            
+                                                    <div class="container-videos">
+                                                        <a href="video.html">
+                                                        <div class="video-img">
+                                                            <img src="https://i.ytimg.com/vi/cKbQQuMJsuU/maxresdefault.jpg" alt="">
+                                                            <span class="minuto-video minuto-video-vivo"><i class="fa-solid fa-tower-broadcast"></i> ao vivo</span>
+                                                        </div>
+                                                        </a>
+                                                        <div class="video-details">
+                                                            <a href="">
+                                                            <h1>Free fire ao vivo (nova Skinn!!)</h1>
+                                                            </a>
+                                                            <div class="video-details-canal">
+                                                                <a href="">
+                                                                <img src="https://p16-capcut-sign-va.ibyteimg.com/tos-maliva-v-be9c48-us/4e1c9e23f75c458c8d3b01a875f8ca65~tplv-nhvfeczskr-1:250:0.webp?lk3s=44acef4b&x-expires=1736256234&x-signature=l6OlhLLtxE%2BIeSgiN%2BAShDAV1tw%3D">
+                                                                <span>João FF</span>
+                                                                </a>
+                                                            </div>
+                                                            <p>1,2 mil assistindo ° há 1 hora e 30 minutos </p>
+                                                            <button class="video-genero">ao vivo</button>
+                                                            <button class="video-genero">game</button>
+                                                        </div>
+                                                        </div><!--CONTAINER VIDEOS-->
+
+                                            
+                                    
+                                          </div><!--VIDEOS-->
+                                          </section>
+
+
+                                          <div class="playlist-container" id="template-areas">
+                                            <div id="playlist">
+                                                <div class="playlist-details">
+                                                    <h1>Minha playlist <i class="fa-solid fa-list-check"></i></h1>
+                                                    <div class="play-bottom">
+                                                        <a href="">
+                                                        <img src="https://midias.correiobraziliense.com.br/_midias/jpg/2023/07/24/1200x801/1_foto_da_ia-28557316.jpg" alt="">
+                                                        <span class="list"><i class="fa-solid fa-list-check"></i></span>
+                                                         <h2>IA dominando o mundo</h2>
+                                                         <p><i class="fa-solid fa-list-check"></i></p>
+                                                        </a>
+                                                    </div>
+                                                    <div class="play-bottom">
+                                                        <a href="">
+                                                        <img src="/codigo videos/logo.png" alt="">
+                                                        <span class="list"><i class="fa-solid fa-list-check"></i></span>
+                                                         <h2>The video titulo</h2>
+                                                         <p><i class="fa-solid fa-list-check"></i></p>
+                                                        </a>
+                                                    </div>
+                                                    <div class="play-bottom">
+                                                        <a href="">
+                                                        <img src="/codigo videos/logo.png" alt="">
+                                                        <span class="list"><i class="fa-solid fa-list-check"></i></span>
+                                                         <h2>The video titulo</h2>
+                                                         <p><i class="fa-solid fa-list-check"></i></p>
+                                                        </a>
+                                                    </div><!--PLAY BOTTOM-->
+                                                </div>
+                                            </div>
+
+                                            <div id="playlist-img">
+                                                <div class="playimg-container">
+                                                    <img src="https://blogdointercambio.stb.com.br/wp-content/uploads/2020/03/melhores-playlists-spotify-e1585245976609.jpg" alt="">
+                                                    <h1>Monte sua playlist de musica ou video</h1>
+                                                </div>
+                                            </div>
+                                          </div><!--PLAYLIST-->
+
+
+                                          <!--REPETIÇÕES-->
+
+                                          <section class="container" id="template-areas">
+                                            <div id="videos">
+                                                <div class="container-videos">
+                                                <a href="video.html">
+                                                <div class="video-img">
+                                                    <img src="https://t4.ftcdn.net/jpg/05/18/69/85/360_F_518698520_Xk9tIwoYpyX6kkVsF6GpQ1z7sKXO8YRz.jpg" alt="">
+                                                    <span class="minuto-video">12 min</span>
+                                                </div>
+                                                </a>
+                                                <div class="video-details">
+                                                    <a href="">
+                                                    <h1>Animações 3d</h1>
+                                                    </a>
+                                                    <div class="video-details-canal">
+                                                        <a href="">
+                                                        <img src="https://www.veeforu.com/wp-content/uploads/2023/03/Orange-Youtube-thumbnail-background-download.jpg" alt="">
+                                                        <span>Animation br</span>
+                                                        </a>
+                                                    </div>
+                                                    <p>30 mil vizualizações ° há 10 dias</p>
+                                                    <button class="video-genero">animação</button>
+                                                </div>
+                                                </div><!--CONTAINER VIDEOS-->
+                                    
+                                                <div class="container-videos">
+                                                    <a href="video.html">
+                                                    <div class="video-img">
+                                                        <img src="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3116191:1627598799/image/C-_Users_diogo_Downloads_Projetos_SVM_Jogos_Times_Sao-Paulo.png_rodada-14.jpg?f=default&$p$f=aaad448" alt="">
+                                                        <span class="minuto-video">9:30 min</span>
+                                                        
+                                                    </div>
+                                                    </a>
+                                                    <div class="video-details">
+                                                        <a href="">
+                                                        <h1>São Paulo x Palmeiras</h1>
+                                                        </a>
+                                                        <div class="video-details-canal">
+                                                            <a href="">
+                                                            <img src="https://img.freepik.com/vetores-gratis/bola-de-futebol-doodle_1034-741.jpg" alt="">
+                                                            <span>Jogo a Jogo</span>
+                                                            </a>
+                                                        </div>
+                                                        <p>10 mil vizualizações ° há 9 horas</p>
+                                                        <button class="video-genero">esporte</button>
+                                                    </div>
+                                                    </div><!--CONTAINER VIDEOS-->
+                                    
+                                                    <div class="container-videos">
+                                                        <a href="video.html">
+                                                        <div class="video-img">
+                                                            <img src="https://t.ctcdn.com.br/BKiFNvyVhajUjXDoq67jZbLuYpk=/1200x675/smart/i640757.jpeg" alt="">
+                                                            <span class="minuto-video">5:49 min</span>
+                                                        </div>
+                                                        </a>
+                                                        <div class="video-details">
+                                                            <a href="">
+                                                            <h1>Free fire clipe</h1>
+                                                            </a>
+                                                            <div class="video-details-canal">
+                                                                <a href="">
+                                                                <img src="https://t.ctcdn.com.br/BKiFNvyVhajUjXDoq67jZbLuYpk=/1200x675/smart/i640757.jpeg" alt="">
+                                                                <span>Free fire </span>
+                                                                <p>V</p>
+                                                                </a>
+                                                            </div>
+                                                            <p>120 mil vizualizações ° há 2 dias</p>
+                                                            <button class="video-genero">game</button>
+                                                        </div>
+                                                        </div><!--CONTAINER VIDEOS-->
+                                    
+                                                        <div class="container-videos">
+                                                            <a href="">
+                                                            <div class="video-img">
+                                                                <img src="https://www.escolascriativas.com/wp-content/uploads/2020/02/playlist-musica-do-meu-lugar.png" alt="">
+                                                                
+                                                            </div>
+                                                            </a>
+                                                            <div class="video-details">
+                                                                <a href="">
+                                                                <h1>Monte sua playlist de musica</h1>
+                                                                </a>
+                                                                <div class="video-details-canal">
+                                                                    <a href="">
+                                                                    <img src="/codigo videos/logo.png" alt="">
+                                                                    <span>The videos</span>
+                                                                    <p>V</p>
+                                                                    </a>
+                                                                </div>
+                                                                <p>.</p>
+                                                                <button class="video-genero">Experimente agora</button>
+                                                            </div>
+                                                            </div><!--CONTAINER VIDEOS-->
+                                    
+                                                            <div class="container-videos">
+                                                                <a href="video.html">
+                                                                <div class="video-img">
+                                                                    <img src="https://t4.ftcdn.net/jpg/05/18/69/85/360_F_518698520_Xk9tIwoYpyX6kkVsF6GpQ1z7sKXO8YRz.jpg" alt="">
+                                                                    <span class="minuto-video">12 min</span>
+                                                                </div>
+                                                                </a>
+                                                                <div class="video-details">
+                                                                    <a href="">
+                                                                    <h1>Animações 3d</h1>
+                                                                    </a>
+                                                                    <div class="video-details-canal">
+                                                                        <a href="">
+                                                                        <img src="https://www.veeforu.com/wp-content/uploads/2023/03/Orange-Youtube-thumbnail-background-download.jpg" alt="">
+                                                                        <span>Animation br</span>
+                                                                        </a>
+                                                                    </div>
+                                                                    <p>30 mil vizualizações ° há 10 dias</p>
+                                                                    <button class="video-genero">animação</button>
+                                                                </div>
+                                                                </div><!--CONTAINER VIDEOS-->
+                                                    
+                                                                <div class="container-videos">
+                                                                    <a href="/codigo videos/video.html">
+                                                                    <div class="video-img">
+                                                                        <img src="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3116191:1627598799/image/C-_Users_diogo_Downloads_Projetos_SVM_Jogos_Times_Sao-Paulo.png_rodada-14.jpg?f=default&$p$f=aaad448" alt="">
+                                                                        <span class="minuto-video">9:30 min</span>
+                                                                    </div>
+                                                                    </a>
+                                                                    <div class="video-details">
+                                                                        <a href="">
+                                                                        <h1>São Paulo x Palmeiras</h1>
+                                                                        </a>
+                                                                        <div class="video-details-canal">
+                                                                            <a href="">
+                                                                            <img src="https://img.freepik.com/vetores-gratis/bola-de-futebol-doodle_1034-741.jpg" alt="">
+                                                                            <span>Jogo a Jogo</span>
+                                                                            </a>
+                                                                        </div>
+                                                                        <p>10 mil vizualizaões ° há 9 horas</p>
+                                                                        <button class="video-genero">esporte</button>
+                                                                    </div>
+                                                                    </div><!--CONTAINER VIDEOS-->
+                                                    
+                                                                    <div class="container-videos">
+                                                                        <a href="/codigo videos/video.html">
+                                                                        <div class="video-img">
+                                                                            <img src="https://t.ctcdn.com.br/BKiFNvyVhajUjXDoq67jZbLuYpk=/1200x675/smart/i640757.jpeg" alt="">
+                                                                            <span class="minuto-video">5:49 min</span>
+                                                                        </div>
+                                                                        </a>
+                                                                        <div class="video-details">
+                                                                            <a href="">
+                                                                            <h1>Free fire clipe</h1>
+                                                                            </a>
+                                                                            <div class="video-details-canal">
+                                                                                <a href="">
+                                                                                <img src="https://t.ctcdn.com.br/BKiFNvyVhajUjXDoq67jZbLuYpk=/1200x675/smart/i640757.jpeg" alt="">
+                                                                                <span>Free fire </span>
+                                                                                <p>V</p>
+                                                                                </a>
+                                                                            </div>
+                                                                            <p>120 mil vizualizações ° há 2 dias</p>
+                                                                            <button class="video-genero">game</button>
+                                                                        </div>
+                                                                        </div><!--CONTAINER VIDEOS-->
+                                                    
+                                                                        <div class="container-videos">
+                                                                            <a href="">
+                                                                            <div class="video-img">
+                                                                                <img src="https://ps.w.org/html5-video-player/assets/icon-128x128.png?rev=2284032" alt="">
+                                                                            </div>
+                                                                            </a>
+                                                                            <div class="video-details">
+                                                                                <a href="">
+                                                                                <h1>Monte sua playlist de videos</h1>
+                                                                                </a>
+                                                                                <div class="video-details-canal">
+                                                                                    <a href="">
+                                                                                    <img src="/codigo videos/logo.png" alt="">
+                                                                                    <span>The videos</span>
+                                                                                    <p>V</p>
+                                                                               </a>
+                                                                                </div>
+                                                                                <p>.</p>
+                                                                                <button class="video-genero">monte agora</button>     
+                                                                            </div>
+                                                                            </div><!--CONTAINER VIDEOS-->
+                                                      </div><!--VIDEOS-->
+                                                      </section>
+
+
+                                <section class="conta">
+                                    <div class="conta-container">
+                                        <h1>Crie sua conta ou entre em alguma</h1>
+                                        <form class="form-flex">
+                                            <p>Email <input type="email" placeholder="Digite seu email" id="email"></p>
+                                            <p>senha <input type="password" placeholder="Digite sua senha" id="senha"></p>
+                                            <button id="entrar">Entrar</button>
+                                        </form>
+                                        <button class="esq-senha">esqueceu a senha?</button>
+                                        <div class="entrar-flex">
+                                            <button class="tenho-conta">Não tenho uma conta </button>
+                                            <h1>Entrar com</h1>
+                                            <button> <img src="https://imagepng.org/google-icone-icon/google-icon-1/" alt=""> Google</button>
+                                            <button> <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt=""> Facebook</button>
+                                        </div>
+                                        <BUtton id="fechar-aba">X fechar aba X</BUtton>
+                                    </div>
+                                </section>
+
+
+                                <div class="scroll">
+                                    <a href="#header">
+                                    <button><i class="fa-solid fa-chevron-left"></i></button>
+                                    </a>
+                                </div>
+
+                  <script src="index.js"></script>
+
+    <script src="https://kit.fontawesome.com/43fd509247.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</body>
+</html>
